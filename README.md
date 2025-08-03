@@ -1,0 +1,7 @@
+This is a CSS project I built to go from the basics all the way to more advanced styling. I wanted to get comfortable with how layouts actually work in real designs, so I made a full page with different sections — a hero banner, navigation bar, some feature highlights, testimonials, a FAQ, and a footer. Everything you see here is styled with just CSS, no frameworks.
+
+I used a lot of flexbox throughout the layout — for aligning things side by side, centering content, and handling spacing. I played around with padding, gaps, positioning, and background images to make sure I understood how each part affects the layout. There’s also a cool section with a circular image and a play button layered on top using absolute positioning — that part helped me practice stacking and positioning elements precisely.
+
+Most of the text is white on dark backgrounds to keep things clean and readable, and I experimented with different font sizes and layouts to get a good visual balance. The testimonial area has profile pictures, colored stars, and some fake review text — mainly to try out smaller elements and text spacing. I also threw in buttons, icon layouts, and a simple footer with social media icons just to tie it all together.
+
+Overall, this project helped me practice and get more confident with CSS. It’s not responsive yet, but the structure and layout were the focus this time. I’ll probably come back to it later to add responsiveness, animations, or transitions, but for now, it’s a solid foundation and a good way to see how far CSS alone can take a design.
