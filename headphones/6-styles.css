@@ -1,0 +1,295 @@
+body {
+  margin: 0; 
+  padding: 0;
+   
+}
+.hero{
+    background-image: url(assets/images/headphones_hero_1.jpg);
+     background-size: cover;
+    color: white;
+    height: 800px;
+    width: 1400px;
+    }
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width:1000px;
+    height: 32px;
+
+}
+#logo{
+    width:161px;
+    height:32px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: 255px;
+    height: 15px;
+    gap: 20px;
+}
+p:hover{
+    color:red;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:637px;
+    height:313px;
+    padding-left: 382px;
+    padding-top:300px ;
+}
+#button{
+    width:162px;
+    height:44px;
+    background-color:#FF6565;
+    border-radius: 40px;
+    color: white;
+}
+h4{
+    font-weight: lighter;
+    text-align: center;
+}
+.second{
+    width: 1400px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.parag{
+    width: 637px;
+    height: 184px;  
+    text-align: center;
+}
+#penta{
+    height: 190px;
+    width: 190px;
+
+}
+.image-container {
+  position: relative; /* makes text absolute to this container */
+  display: inline-block;
+  text-align: center;
+}
+
+#penta {
+  width: 200px; /* adjust image size */
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 70px; /* vertical position */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* text color */
+  font-size: 46px;
+  font-weight: bold;
+  
+}
+
+.small {
+  top: 65%; /* moves h4 below h1 */
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.third{
+    width: 1400px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(assets/images/headphones_hero_2.jpg);
+    color: white;
+}
+.int{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+}
+.forth{
+       width: 1400px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     gap: 30px;
+
+}
+hr {
+ width: 335px;
+ border: 1px solid #979797;
+}
+.hrr{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+.footer{
+    background-color: #071629;
+    width: 1400px;
+    height: 248px;
+}
+#logoo{
+    width: 161px;
+    height: 32px;
+    padding-left:200px ;
+    padding-top:92px ;
+}
+#svg{
+    padding-left:1070px ;
+    
+  
+}
+h6{
+    padding-left:651px ;
+    padding-top:25px ;
+    color: #979797;
+}
+/* -------------------- RESPONSIVE STYLES -------------------- */
+
+/* Tablet & small desktop */
+@media (max-width: 1024px) {
+    .hero, .second, .third, .forth, .footer {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .nav {
+        padding-left: 10%;
+        padding-right: 10%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu {
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+
+    .main {
+        width: 90%;
+        padding-left: 0;
+        padding-top: 20%;
+    }
+
+    .parag {
+        width: 90%;
+    }
+
+    .image-container {
+        width: 150px;
+    }
+
+    #penta {
+        width: 150px;
+    }
+
+    .centered {
+        font-size: 36px;
+        top: 60%;
+    }
+
+    .small {
+        font-size: 12px;
+        top: 70%;
+    }
+
+    .int {
+        gap: 30px;
+    }
+}
+
+/* Mobile devices - 480px and below */
+@media (max-width: 480px) {
+    .hero {
+        height: auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu {
+        display: none; /* hide menu initially for hamburger */
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+        display: block;
+        font-size: 26px;
+        color: white;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    /* Show menu when active */
+    .menu.active {
+        display: flex;
+    }
+
+    .main {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 15%;
+    }
+
+    .parag {
+        width: 90%;
+    }
+
+    #button {
+        width: 140px;
+        height: 40px;
+    }
+
+    .image-container {
+        width: 120px;
+    }
+
+    #penta {
+        width: 120px;
+    }
+
+    .centered {
+        font-size: 24px;
+        top: 55%;
+    }
+
+    .small {
+        font-size: 10px;
+        top: 65%;
+    }
+
+    .int {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 40px 5%;
+    }
+
+    #logoo, #svg, h6 {
+        padding-left: 0;
+        text-align: center;
+    }
+}
